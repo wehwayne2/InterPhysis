@@ -28,7 +28,7 @@ public class ReceiveIMUValues : MonoBehaviour {
 
             // Split the IMU data by '/'
             string[] values = imuData.Split('/');
-            if (values.Length == 5 && values[0] == imuName) // Rotation of the first one 
+            if (values.Length == 9 && values[0] == imuName) // Rotation of the first one 
             {
                 try
                 {
