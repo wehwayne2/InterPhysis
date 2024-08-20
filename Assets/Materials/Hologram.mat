@@ -59,7 +59,7 @@ Material:
     - _QueueOffset: 0
     - _ScollSpeed: 0.1
     m_Colors:
-    - _Fresenl_Color: {r: 1024, g: 0, b: 522.4702, a: 1}
+    - _Fresenl_Color: {r: 0, g: 0.0040539727, b: 0.038024556, a: 1}
     - _Hologram_Tilling: {r: 10, g: 10, b: 0, a: 0}
-    - _MainColor: {r: 0.65719545, g: 2.1031024, b: 0, a: 0}
+    - _MainColor: {r: 0.043239, g: 0.14150944, b: 0, a: 0}
   m_BuildTextureStacks: []

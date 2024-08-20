@@ -38,14 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelPower: 1.83
-    - _NoiseScale: 19.5
+    - _FresnelPower: 6.52
+    - _NoiseScale: 37.47
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ScrollSpeed: 0.79
+    - _ScrollSpeed: 0
     m_Colors:
-    - _InnerColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
-    - _OuterColor: {r: 1.1353017, g: 0, b: 0, a: 0}
+    - _InnerColor: {r: 0.05882353, g: 0.05882353, b: 0.05882353, a: 0}
+    - _OuterColor: {r: 0, g: 0.00086076965, b: 0.043137256, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &936976303721534210
 MonoBehaviour:

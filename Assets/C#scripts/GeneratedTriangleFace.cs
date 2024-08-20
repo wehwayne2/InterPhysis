@@ -7,6 +7,7 @@ public class TriangleFace : MonoBehaviour
     public Transform pointC;  // The third vertex
 
     private Mesh mesh;
+    private MeshCollider meshCollider;
 
     void Start()
     {
@@ -16,13 +17,16 @@ public class TriangleFace : MonoBehaviour
         // Assign the mesh to the MeshFilter component
         GetComponent<MeshFilter>().mesh = mesh;
 
+        // Initialize the MeshCollider and assign the mesh to it
+        meshCollider = gameObject.AddComponent<MeshCollider>();
+
         // Create the initial triangle
         UpdateMesh();
     }
 
     void Update()
     {
-        // Update the triangle mesh to follow the moving points
+        // Update the triangle mesh and collider to follow the moving points
         UpdateMesh();
     }
 
@@ -55,5 +59,9 @@ public class TriangleFace : MonoBehaviour
 
         // Move the GameObject to the centroid
         transform.position = centroid;
+
+        // Update the MeshCollider to match the new mesh
+        meshCollider.sharedMesh = null;  // Clear the old mesh to force an update
+        meshCollider.sharedMesh = mesh;  // Assign the updated mesh to the MeshCollider
     }
 }
