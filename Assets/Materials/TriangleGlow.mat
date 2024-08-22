@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UniverseMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 3fae43ac7a5656149a4455662ee1c47b,
+  m_Name: TriangleGlow
+  m_Shader: {fileID: -6465566751694194690, guid: 81a13a93636609442b7397b9264fe4b4,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,16 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelPower: -0.24
-    - _NoiseScale: 30
+    - _Noise_Scale: 200
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ScrollSpeed: 2.01
+    - _Refraction_Strength: 2
     m_Colors:
-    - _InnerColor: {r: 0, g: 0.1981132, b: 0.1981132, a: 0}
-    - _OuterColor: {r: 0.003921568, g: 0.047058824, b: 0.02319802, a: 0}
+    - _Color: {r: 0.8705506, g: 0, b: 0.037547607, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &936976303721534210
+--- !u!114 &4215577600764824227
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
