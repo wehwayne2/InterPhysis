@@ -294,20 +294,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "b22fc3767b7149fbb1241a9d12c85d5f"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "edaeb8895ac14f81b2b3d31de439c3c3"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "b51785b9267241948d86fb74b2b2a2d4"
                 },
                 "m_SlotId": 2
@@ -591,7 +577,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 0,
+    "m_RenderFace": 2,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -1767,7 +1753,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Power",
     "m_StageCapability": 3,
-    "m_Value": 5.5,
+    "m_Value": 3.059999942779541,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -1956,7 +1942,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
@@ -2156,7 +2142,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Metallic",
     "m_StageCapability": 2,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -2655,7 +2641,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f3667ab45849028469e09d8b71a0ca9f\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"fd15a6fab7475954594f39602e5711e5\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,

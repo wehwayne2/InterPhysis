@@ -43,7 +43,7 @@ Material:
     - _QueueOffset: 0
     - _Refraction_Strength: 2
     m_Colors:
-    - _Color: {r: 0, g: 2.161058, b: 68.77032, a: 0}
+    - _Color: {r: 0, g: 5.5836325, b: 191.74898, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4215577600764824227
 MonoBehaviour:
